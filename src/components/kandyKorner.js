@@ -5,8 +5,12 @@ import { ApplicationViews } from "./ApplicationViews"
 
 export const KandyKorner = () => {
     return (
-        <NavBar />
-        <ApplicationViews />
+        <>
+            <Route>
+                <NavBar />
+                <ApplicationViews />
+            </Route>
+        </>
     )
 }
-`
+
